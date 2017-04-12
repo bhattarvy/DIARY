@@ -3,10 +3,12 @@
     <meta charset="utf-8"/>
         <style>
             body{
-                background-color: azure;
+                background-color:blueviolet;
             }
             #main{
-                background-image: url("i11.jpeg");
+                background-image: url("i14.jpeg");
+                
+                opacity: 10;
                 height: 500px;
                 
                 
@@ -16,23 +18,38 @@
                 font-size: 50px;
                 
             }
+            #main image{
+                width: auto;
+                height: 500px;
+                
+            }
             form{
                 align-items: center;
                 width: 50%;
                 font-style: italic;
                 font-size: 20px;
-                color: blue;
+                color: red;
               
                
                 
             }
             #singup{
-                position: absolute;
-                left: 25%;
+                align-self: center;
             }
             #bottom{
                 po
             }
+            footer{
+                height: 100px;
+                text-align: center;
+                text-shadow: 10px;
+                text-emphasis-style: double-circle;
+                background-color: black;
+                text-decoration-color: aquamarine;
+                color: white;
+                font-size:50px;
+            }
+   
         
         </style>
         
@@ -57,10 +74,15 @@
       </div>
       <br>
       <div id="bootom">
-     <a href="diary2nd.php">singup</a>
+     <a href="diary2nd.php" color="red">singup</a>
+    <br><br><br>
+<br>
+<footer color="black">END OF PAGE</footer>
       
       </div>
-    
+  
+
+
     </body>
 
 </html>

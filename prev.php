@@ -1,6 +1,13 @@
 <html>
+<head>
+ <style>
+   body {
+     background-color: green;
+     }
+</style>
+</head>
 <body>
-
+<h1>OLD DIARY IS HERE</h1>
 <?php
   $conn=mysql_connect("localhost","arvy");
   mysql_select_db('ar_db');
@@ -16,3 +23,5 @@
 echo "<br><br><br>";
 }
 ?>
+</body>
+</html>
